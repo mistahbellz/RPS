@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:#35374B;
+}
+@font-face {
+    font-family: 'Nexa Heavy';
+    src: url('Nexa-Heavy.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aldo the Apache';
+    src: url('AldotheApache.ttf') format('truetype');
+}
+h1{
+  top: 2px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+}
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.gamePane{
+  background-color:#344955 ;
+  border-radius:20px;
+  border-color: white;
+  width: 750px;
+  height: 600px;
+  top: 50px;
+  margin: 5px;
+ 
+}
+h3{
+  color:#78A083;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+.p1Column{
+  position: relative;
+  top: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* border: 3px solid white; */
+}
+.cpuColumn{
+  position: relative;
+  top: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 0px 0px 25px;
+  /* border: 3px solid white;   */
+}
+
+.scoreBoard{
+  width: 250px;
+  display: flex;
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.choiceHolder{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 25px;
+  gap: 5px;
+  margin: 15px;
+  /* border: 3px solid white; */
+}
+.boardHolder{
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  height: 400px;
+  justify-content: center;
+  gap: 150px;
+  margin: 0px;
+  /* border: 3px solid white; */
+}
+button.choice{
+  background-color: #50727B;
+  color: white;
+  border-radius: 5px;
+  }
+button.start{
+  background-color: #35374B;
+  position: relative;
+  left: 310px;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 20px;
+  margin: 20px;
+ 
+  }
+.msgPane{
+  width: 650px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  background-color:#35374B;
+ gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #78A083;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.scoreText{
+  color: #344955;
+  font-size: 60px;
+  margin: 10px;    
+  font-weight: bold;
+}
+p {
+  color: white;
+  font-family: 'Nexa Heavy', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Nexa Heavy', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px;
+}
